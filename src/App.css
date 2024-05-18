@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.plugin-header{
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.plugin-identity{
+  font-size: 1.5em;
+  margin: .6em 0;
+  display: inline-block;
+}

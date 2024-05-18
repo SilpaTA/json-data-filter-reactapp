@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import PostFilterAjax from './PostFilterAjax.';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <header class="plugin-header">
+      <div class="plugin-identity">
+        <h1>Post Filter</h1>
+      </div>  
+    </header>
+    <div className=' container-fluid'>
+      <div className='wrapper-filter'>
+          <PostFilterAjax />
+      </div>
     </div>
+    
+    </>
+    
+    
   );
 }
 
