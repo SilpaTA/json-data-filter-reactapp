@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import PostFilterAjax from './PostFilterAjax.';
+import PostFilterAjax from './PostFilterAjax';
+
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
     </header>
     <div className=' container-fluid'>
       <div className='wrapper-filter'>
+        
           <PostFilterAjax />
       </div>
     </div>
