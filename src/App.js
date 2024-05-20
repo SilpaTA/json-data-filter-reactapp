@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import PostFilterAjax from './PostFilterAjax';
+import PostFilterAjaxTest from './PostFilterAjaxTest'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className='wrapper-filter'>
         
           <PostFilterAjax />
+          {/* <PostFilterAjaxTest /> */}
       </div>
     </div>
     
